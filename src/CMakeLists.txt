@@ -42,7 +42,7 @@ CONFIGURE_FILE(
   "${CMAKE_CURRENT_SOURCE_DIR}/gogoo-panel-internet.desktop.in"
   "${CMAKE_CURRENT_BINARY_DIR}/gogoo-panel-internet.desktop"
   IMMEDIATE @ONLY)
-INSTALL(FILES ${CMAKE_CURRENT_BINARY_DIR}/meego-panel-internet.desktop DESTINATION share/mutter-netbook/panels)
+INSTALL(FILES ${CMAKE_CURRENT_BINARY_DIR}/gogoo-panel-internet.desktop DESTINATION share/mutter-netbook/panels)
 
 ########### Add .service target ###############
 CONFIGURE_FILE(
